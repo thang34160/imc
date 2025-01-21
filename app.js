@@ -1,3 +1,6 @@
+
+// trouver un moyen d'utiliser la const BMIData
+
 const BMIData = [
   { name: "Maigreur", color: "midnightblue", range: [0, 18.5] },
   { name: "Bonne santé", color: "green", range: [18.5, 25] },
@@ -7,7 +10,7 @@ const BMIData = [
   { name: "Obésité morbide", color: "purple", range: 40 },
 ];
 
-// IMC = poids en kg / taille² en m
+// IMC = poids en kg / taille² en m 
 
 function calcul() {
   const inputPoids = document.getElementById("poidsinput");
