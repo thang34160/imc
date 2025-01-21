@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Lato, Helvetica, sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+
+.container {
+  margin: 0 auto;
+  height: 300px;
+  width: 600px;
+  border: 2px solid white;
+  padding: 5px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.taille {
+  display:inline-block;
+  float: left;
+  font-size: 9px;
+  margin-left: 10px;
+}
+
+.poids {
+  display: inline-block;
+  float:right;
+  font-size: 9px;
+  margin-right: 20px;
+}
+
+.bouttondecalcul {
+  border: none;
+  background-color: orange;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10%;
+}
+
+.resultat {
+  font-size: 16px;
+}
